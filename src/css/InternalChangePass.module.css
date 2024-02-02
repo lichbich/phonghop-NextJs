@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+.error{
+    color:  #E56353;
+    font-family: "Be Vietnam Pro";
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    transform: translate(0, -15%);
+    width: 55%;
+    margin-bottom: 0;
+}

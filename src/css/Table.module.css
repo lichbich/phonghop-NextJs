@@ -1,0 +1,11 @@
+.ant-table .ant-table-container .ant-table-content table thead.ant-table-thead .ant-table-cell {
+    background-color: green;
+}
+
+.ant-table-column-title {
+    color: red !important;
+}
+
+.ant-table-cell{
+    background-color: yellow !important;
+}

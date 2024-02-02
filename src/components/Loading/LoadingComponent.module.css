@@ -1,0 +1,22 @@
+.loaderWrapper {
+    position: fixed;
+    /* SET TO FIXED */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1001;
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 8vmax;
+    height: 8vmax;
+    margin: -4vmax;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top-color: #FFFFFF;
+    animation: spin 1s linear infinite;
+}

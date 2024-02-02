@@ -1,0 +1,9 @@
+.timepicker{
+    display: flex;
+    width: 140px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid  #323232;
+}

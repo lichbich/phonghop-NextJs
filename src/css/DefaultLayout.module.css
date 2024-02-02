@@ -1,0 +1,111 @@
+.inputform {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.inputform input {
+    padding: 10px 24px;
+    width: 329px;
+    height: 44px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #EAEEF6;
+    background: #EAEEF6;
+
+    color: #323232;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    flex: 1;
+    box-sizing: border-box;
+
+}
+
+.inputform label {
+    color: #383838;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+.editbtn {
+    display: flex;
+    width: 207px;
+    height: 44px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #388697;
+    background: #FFF;
+    margin-bottom: 44px;
+
+    color: #388697;
+    font-family: Be Vietnam Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.editsection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btngroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}
+
+.passbtn {
+    border: none;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 240px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    background: #225560;
+
+}
+
+.closebtn {
+    border: 1px solid #225560;
+    color: #225560;
+    width: 240px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.closebtn {
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #225560;
+}

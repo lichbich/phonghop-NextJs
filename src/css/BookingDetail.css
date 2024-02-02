@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap');
+
+label {
+    font-family: Be Vietnam Pro;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #383838;
+}
+
+.bookingInput {
+    font-size: 16px;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    width: 370px;
+    height: 44px;
+    border-radius: 8px;
+    border: 2px solid #225560;
+}
+
+.bookingTextArea {
+    font-size: 16px;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    width: 370px;
+    height: 123px;
+    border-radius: 8px;
+}
+
+.ant-input-disabled, .ant-input-disabled::placeholder {
+    color: black !important;
+    /* Replace #yourColor with your desired color */
+}
+
+.ant-select-selector {
+    font-size: 16px !important;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    width: 370px !important;
+    height: 44px !important;
+    border-radius: 8px !important;
+    border: 2px solid #225560 !important;
+}
+
+.ant-card .ant-card-body {
+    padding: 8px;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ant-card .ant-card-meta-title {
+    font-family: Be Vietnam Pro;
+    font-size: 16px !important;
+    font-weight: 600;
+
+}
+
+.ant-card .inforRoom {
+    margin-top: 8px;
+}
+
+.ant-card span {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Be Vietnam Pro;
+}
+
+.ant-form-item-control-input-content .ant-row .ant-col {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.ant-form-item-control-input-content .ant-row {
+    gap: 10px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.title-Guest {
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #225560;
+
+}
+
+.SignIn-Guest {
+    text-decoration: none;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #225560;
+}
+
+.btnBookGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    gap: 24px;
+}
+
+.btnBookNow {
+    width: 180px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    border: none;
+    background-color: #8B8B8B;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.btnClose {
+    width: 180px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    border: 1px solid #225560;
+    background-color: white;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #225560;
+}
+
+.inVisibleModal{
+    display: none;
+}

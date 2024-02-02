@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+.warningTitle {
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    color: #225560;
+    font-style: normal;
+    margin-bottom: 49px;
+}
+.errorMessage{
+    color: red;
+    text-align: center;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonDelete{
+    width: 250px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: #225560;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+.buttonCancel{
+    width: 250px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #225560;
+    gap: 10px;
+    background-color: white;
+    color: #225560;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}

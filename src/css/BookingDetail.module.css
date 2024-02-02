@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap');
+
+.formTitle {
+    font-family: 'Be Vietnam Pro';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    color: #225560;
+    margin-bottom: 50px;
+}
+
+.custombutton {
+    width: 32px;
+    height: 32px;
+    background-color: #388697;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+}
+
+.toplabel {
+    margin-left: 80px;
+    color: #225560;
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.label {
+    color: #383838;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.formControl {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* .formControl>div>div>div:first-child{
+    align-items: center!important;
+    display: inline-flex!important;
+} */
+
+.errorMessage {
+    float: right;
+    padding-top: 4px;
+    margin-right: 300px;
+    font-family: Be Vietnam Pro;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phoneError {
+    float: right;
+    padding-top: 4px;
+    margin-right: 220px;
+    font-family: Be Vietnam Pro;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Input {
+    display: flex;
+    align-items: center;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 44px;
+    width: 329px;
+    border: 2px solid #225560;
+    border-radius: 8px;
+    padding: 10px 24px 10px 24px;
+    gap: 10px;
+    margin-right: 90px;
+    float: right;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 24px;
+}
+
+.addbtn {
+    width: 228px;
+    height: 52px;
+    color: #FFF;
+    font-family: Be VietNam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #225560;
+    border-radius: 8px;
+    border: none;
+}
+
+.buttonAdd {
+    width: 240px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #8B8B8B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    cursor: pointer;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.buttonCancel {
+    width: 240px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 200px;
+    background-color: white;
+    color: #225560;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    cursor: pointer;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.buttonClose {
+    color: #fff;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 240px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #225560;
+    background-color: #225560;
+}
+
+.buttonsingle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.customInput {
+    background-color: #EAEEF6;
+    border: none !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.customInput {
+    color: #5D5D5D;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.formCompleted {
+    background-color: #225560;
+}
+
+.ant-form-item .ant-form-item-label>label {
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #383838;
+}
+.autocheckbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.autocheckbox label p{
+    color:  #323232;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+.autocheckbox input[type="checkbox"]  {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    border: 2px solid #225560;
+    background:  #225560;
+    display: inline-block;
+}
+.autocheckbox input[type="checkbox"]:checked {
+    background-color: red; /* Màu fill khi checkbox được chọn */
+}
+.materialsSection{
+    display: flex;
+    gap: 10px;
+}
+.materialsSection button{
+    width: 181px;
+    height: 44px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid var(--Primary-Button-Light, #388697);
+    background: var(--Primary-Button-Light, #388697);
+    color: var(--White, #FFF);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.removebutton{
+    width: 16px;
+    height: 16px;
+}
+.itemlist{
+    margin-bottom: 0px;
+}
+.inputt{
+    margin-bottom: 0px;
+}
+.labelinfor h3{
+    margin-bottom: 20px;
+    color:  #225560;
+    font-family: "Be Vietnam Pro";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}

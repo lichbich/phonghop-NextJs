@@ -1,0 +1,188 @@
+.formControl{
+    width: 370px;
+    height: 44px;
+    border-radius: 8px;
+    border: 2px solid #EAEEF6;
+    gap: 10px;
+    padding: 10px 24px;
+}
+.formLabel{
+    width: 155px;
+    height: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 0;
+    font-size: 17px;
+}
+.formSelect{
+    width: 370px;
+    height: 44px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 2px solid #EAEEF6;
+
+}
+.formControl1{
+    width: 370px !important;
+    height: 123px !important;
+    border-radius: 8px;
+    border: 2px solid #EAEEF6;
+    max-width: 105% !important;
+}
+.formLabel1{
+    width: 21px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0;
+}
+.modalTitle{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    padding-bottom: 20px;
+    color: #225560;
+}
+.bookingButton{
+    display: inline-flex;
+    height: 52px;
+    margin-left: 7px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #225560;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.materialpush{
+    display: flex;
+    gap: 21%;
+    align-items: center;
+}
+.addbtn{
+    width:228px ;
+    height: 52px;
+    color: #FFF;
+    font-family: Be VietNam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background:  #225560;
+    border-radius: 8px;
+    border: none;
+}
+.dateTimePicker {
+    margin-left: 32px;
+    justify-content: space-between;
+    width: 370px;
+}
+.dateTimePicker .date p,.dateTimePicker .time p{
+    color:  #323232;
+    font-family: Be Vietnam Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.selectsection,.dateTimePicker,.time,.date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date{
+    gap: 32px;
+}
+.dateTimePicker{
+    margin-left: 0;
+}
+.time{
+    gap: 32px;
+}
+.checkbox{
+    justify-content: center;
+    display: flex;
+    gap:8px;
+    margin-bottom: 8px;
+}
+.checkbox>h6{
+    margin-bottom: 0;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color:#323232;
+}
+.buttonAdd {
+    width: 240px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 200px;
+    background-color: #225560;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    cursor: pointer;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.buttonCancel {
+    width: 240px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 200px;
+    background-color: white;
+    color: #225560;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    cursor: pointer;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.formCompleted {
+    background-color: #225560; 
+  }
+  .errorMessage {
+    float: right;
+    padding-top: 4px;
+    margin-right: 160px;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.selectedDate>div{
+    width: 184px;
+    height: 44px;
+}
+.roomselect{
+    width: 370px;
+}

@@ -1,0 +1,21 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "Login": {
+    "success": "Login successful",
+    "error": "Login error"
+  },
+  "Delete": {
+    "success": "Delete successful",
+    "error": "Delete error"
+  },
+  "Add": {
+    "success": "Add successful",
+    "error": "Add error"
+  },
+  "Edit": {
+    "success": "Edit successful",
+    "error": "Edit error"
+  }
+}

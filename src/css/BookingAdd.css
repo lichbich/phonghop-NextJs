@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+.ant-btn-default{
+    width: 181px;
+    height: 44px;
+    background-color: #388697;
+    color: white;
+
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+
+}
+.ant-picker-dropdown{
+    z-index: 500000;
+}
+
+.ant-form-item .ant-form-item-label >label::after {
+    display: none;
+}
+
+.ant-form label {
+    font-size: 17px;
+}

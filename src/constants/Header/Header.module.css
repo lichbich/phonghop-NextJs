@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600&family=Exo+2:wght@300;400;500&family=Kaushan+Script&family=Roboto:wght@100&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600&family=Exo+2:wght@300;400;500&family=Kaushan+Script&family=Open+Sans&family=Roboto:wght@100&family=Russo+One&display=swap');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    padding-right: 32px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h2 {
+    margin-left: 24px;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.lang {
+    width: 116px;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.customlang {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 19px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    color: #383C40;
+    font-family: Be Vietnam Pro !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #225560;
+    background-color: #FFF;
+}
+
+.customlogout {
+    width: 116px;
+    height: 36px;
+    background: #225560;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: #5D5D5D;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.closebtn {
+    color: #225560;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 240px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #225560;
+}
+
+.passbtn {
+    border: none;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    width: 240px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #225560;
+}
+
+.btngroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}

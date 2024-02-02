@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+
+.bookingSuccess h2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #22577A;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bookingSuccess p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #5D5D5D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bookingSuccess .booking-infor {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 8px;
+    color: #323232;
+    font-size: 14px;
+    font-weight: 400;
+}

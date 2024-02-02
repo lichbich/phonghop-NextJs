@@ -1,0 +1,34 @@
+h3 {
+    color: #225560;
+    font-family: Be Vietnam Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+input {
+    width: 277px;
+    height: 20px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 2px solid #EAEEF6;
+}
+
+p {
+    color: #225560;
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn {
+text-align: center;
+}
+.AddNew {
+    background-color: #225560;
+    color: white;
+}

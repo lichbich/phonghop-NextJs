@@ -1,0 +1,21 @@
+{
+  "Index": {
+    "title": "Xin chào"
+  },
+  "Login": {
+    "success": "Đăng nhập thành công",
+    "error": "Login error"
+  },
+  "Delete": {
+    "success": "Xóa thành công",
+    "error": "Xóa lỗi"
+  },
+  "Add": {
+    "success": "Thêm thành công",
+    "error": "Thêm lỗi"
+  },
+  "Edit": {
+    "success" : "Sửa thành công",
+    "error" : "Sửa không thành công"
+  }
+}

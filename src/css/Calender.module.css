@@ -1,0 +1,128 @@
+.labelsection{
+    color: #5D5D5D;
+    font-family: Be Vietnam Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px;
+}
+.headerContainer{
+    margin:0 0 0 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 16px;
+}
+.square{
+    width: 32px;
+    height: 32px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 4px;
+    background-color: #388697;
+}
+.calendarContainer{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    gap: 16px;
+}
+.calender{
+    padding: 30px;
+}
+.textContainer{
+    display: flex;
+}
+.childTextContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    gap: 16px;
+}
+.dateInput{
+    display: flex;
+    height: 32px;
+    width: 200px;
+    padding: 10px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px solid #323232;
+}
+.checkboxLabel{
+    align-items: center;
+    padding-left: 5px;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #5D5D5D;
+}
+.text{
+    color:  #323232;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 0px;
+}
+.bookingButton{
+    display: inline-flex;
+    height: 52px;
+    margin-left: 7px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #225560;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.roomPicker{
+    display: flex;
+    width: 169px;
+    height: 32px;
+    padding-left: 5px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #323232;
+    color: #323232;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.weekPicker{
+    display: flex;
+    width: 87px;
+    height: 32px;
+    padding-left: 5px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #323232;
+    color: #323232;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

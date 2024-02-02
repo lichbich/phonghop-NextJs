@@ -1,0 +1,21 @@
+.fc .fc-col-header-cell-cushion {
+    text-decoration: none;
+    color: white;
+}
+.fc-day-grid-container.fc-scroller {
+    overflow-y: auto;
+}
+
+.fc .fc-col-header-cell-cushion { /* needs to be same precedence */
+     background-color: #20505B;
+ }
+.fc-timegrid-axis {
+    visibility: hidden;
+}
+element.style {
+    width: 1266px;
+    background-color: green;
+}
+.fc-col-header{
+    background-color: #20505B;
+}

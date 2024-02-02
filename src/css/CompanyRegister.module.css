@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+.wraper {
+    position: relative;
+}
+
+.content h3 {
+    color: #5D5D5D;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.subContent {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5D5D5D;
+    width: 90%;
+}
+
+.inputsection {
+    display: flex;
+    width: 90%;
+    height: 52px;
+    padding: 0px 8px;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    border: none;
+    border-bottom: 2px solid #225560;
+    opacity: 0.6;
+    justify-content: center;
+    padding-left: 20%;
+    /* margin-bottom: 24px; */
+}
+
+.inputsection::placeholder {
+    color: #5D5D5D;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.inputsection:focus {
+    outline: none;
+    border-bottom: 2px solid #225560;
+    opacity: 1;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+}
+
+.input {
+    position: relative;
+}
+
+.btnsection {
+    margin-bottom: 36px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.nextBtn {
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #8B8B8B;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+.nextBtnActive {
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    background-color: #225560 !important;
+    color: white !important;
+}
+
+.createBtn {
+    height: 52px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #8B8B8B;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+.createBtnActive {
+    height: 52px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    background-color: #225560 !important;
+    color: white !important;
+}
+
+.cancelbtn {
+    width: 120px;
+    height: 52px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #225560;
+    background: #FFF;
+    color: var(--Primary-Button, #225560);
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.progressbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 5%;
+    width: 90%;
+    height: 12px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #D9D9D9;
+}
+
+.halfColor {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 32px;
+    background: #388697;
+}
+
+.halfColorEnd {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 32px;
+    background: #388697;
+}
+
+.showhide {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-right: 10%;
+    transform: translate(0, -50%);
+}
+
+.w90 {
+    width: 90%;
+}
+
+.errorMessage {
+    font-family: Be Vietnam Pro;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -3%;
+    margin-bottom: 0 !important;
+    color: #CC2936
+}
+
+.loginbtn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 52px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #225560;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.popupInfo {
+    color: #323232;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.valid {
+    background-color: #225560;
+  }
+  

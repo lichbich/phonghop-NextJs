@@ -1,0 +1,125 @@
+h3 {
+    color: #225560;
+    font-family: Be Vietnam Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 0;
+}
+
+input {
+    width: 332px;
+    height: 44px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 2px solid #EAEEF6;
+    margin-left: 132px;
+}
+
+select {
+    width: 332px;
+    height: 44px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 2px solid #EAEEF6;
+    margin-left: 132px;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.upload-text {
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #383838;
+    margin-left: 125px;
+}
+
+.btn {
+    text-align: center;
+    gap: 23px;
+    display: flex;
+    left: 25%;
+    position: absolute;
+    margin-top: 24px;
+    border: 0;
+}
+.AddNew {
+    background-color: #225560;
+    color: white;
+    width: 240px;
+    height:52px;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+
+}
+.ant-modal .ant-modal-content{
+    width: 974px;
+    height: 897px;
+}
+.ant-form-item .ant-form-item-label >label {
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #383838;
+}
+.ant-upload-wrapper .ant-upload-drag{
+    width: 513px;
+    height: 176px;
+    left: 216px;
+    border-radius: 8px;
+
+}
+.ant-upload-wrapper .ant-upload-drag p.ant-upload-text{
+    display: flex;
+    justify-content: center;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Cancel{
+    width: 240px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #225560;
+    gap: 10px;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+.errorMessage {
+    float: right;
+    padding-top: 4px;
+    margin-right: 300px;
+    font-family: Be Vietnam Pro;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+

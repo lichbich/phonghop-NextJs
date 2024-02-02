@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'SF Compact Display Thin';
+    src: local('SF Compact Display Thin'), url('../fonts/sf-compact-display-thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Compact Display Medium';
+    src: local('SF Compact Display Medium'), url('../fonts/sf-compact-display-medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: local('SF Compact Display Regular'), url('../fonts/sf-compact-display-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Compact Display Bold';
+    src: local('SF Compact Display Bold'), url('../fonts/sf-compact-display-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Compact Display Black';
+    src: local('SF Compact Display Black'), url('../fonts/sf-compact-display-black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: local('Roboto'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: local('SF Pro Text'), url('../fonts/SF-Pro-Text-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), url('../fonts/OpenSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: local('IBM Plex Sans'), url('../fonts/IBMPlexSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans Bold';
+    src: local('IBM Plex Sans Bold'), url('../fonts/IBMPlexSans-Bold.ttf') format('truetype');
+}
